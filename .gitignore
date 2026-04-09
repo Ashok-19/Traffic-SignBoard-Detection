@@ -2,7 +2,12 @@
 __pycache__/
 *.pyc
 #runs/
-data
+data/raw
+data/curated/signboard_yolo26_lite/images/train
+data/curated/signboard_yolo26_lite/labels/train
+data/curated/signboard_yolo26_lite/labels/train.cache
+data/curated/signboard_yolo26_lite/labels/test.cache
+data/curated/signboard_yolo26_lite/labels/val.cache
 CUDA_FIX.md
 GPU_SETUP_COMPLETE.md
 raw_github
