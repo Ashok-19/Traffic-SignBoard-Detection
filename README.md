@@ -1,5 +1,23 @@
 # Traffic Signboard Detection (YOLO26, Laptop-Friendly)
 
+## Todo
+
+- [x] First Iteration model with basic traffic signboard detection
+
+- [ ] Add labeled data and update the model to detect more specific sign types (e.g., stop sign, zebra crossing, etc.)
+
+- [ ] Build an audio feedback system that can alert the user when a signboard is detected, and provide information about the sign
+
+- [ ] Build a rule based system to detect high priority sign types to filter out noise and only alert the user for important signs
+
+- [ ] Optimize the model and inference pipeline for real-time performance.
+
+- [ ] Test the system in real-world scenarios and gather feedback for further improvements.
+
+- [ ] Port entire pipeline jetson nano 2gb for on-device inference.
+
+- [ ] Re-optimize again for qualcomm 6490 chip
+ 
 This project curates a **single-class** dataset (`traffic_sign_board`) and trains/tests a **YOLO26 nano** detector locally.
 
 ## Current curated dataset
