@@ -14,9 +14,9 @@
 
 - [ ] Test the system in real-world scenarios and gather feedback for further improvements.
 
-- [ ] Port entire pipeline jetson nano 2gb for on-device inference.
+- [ ] Port entire pipeline to Raspberry Pi 8gb for on-device inference.
 
-- [ ] Re-optimize again for qualcomm 6490 chip
+- [ ] Optimize again for qualcomm 6490 chip
  
 This project curates a **single-class** dataset (`traffic_sign_board`) and trains/tests a **YOLO26 nano** detector locally.
 
